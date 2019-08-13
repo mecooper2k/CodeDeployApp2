@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo yum update -y
-sudo yum install -y httpd24 php56 php56-mysqlnd
+sudo apt-get update -y
+sudo apt-get install -y httpd24 php56 php56-mysqlnd
 sudo service httpd start
 sudo chkconfig httpd on
 sudo groupadd www
